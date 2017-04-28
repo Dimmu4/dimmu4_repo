@@ -1,0 +1,5 @@
+<messaging:emailTemplate subject="qwerty" recipientType="Contact" >
+<messaging:plainTextEmailBody >
+Why so serious? Ha?
+</messaging:plainTextEmailBody>
+</messaging:emailTemplate>

@@ -1,0 +1,1 @@
+public class Class1_diz_mac19_C { }

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>diz_task2_Cdiz_task2_C</name>
+        <label>diz_task2_C</label>
+        <locationX>292</locationX>
+        <locationY>130</locationY>
+        <actionName>NewTask</actionName>
+        <actionType>quickAction</actionType>
+        <connector>
+            <targetReference>test2</targetReference>
+        </connector>
+        <inputParameters>
+            <name>OwnerId</name>
+            <value>
+                <elementReference>diz_task2_Cdiz_task2_C</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <description>test23</description>
+    <interviewLabel>diz_flow2_C {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>diz_flow2_C</label>
+    <processType>Flow</processType>
+    <screens>
+        <name>test2</name>
+        <label>test2</label>
+        <locationX>514</locationX>
+        <locationY>278</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+    </screens>
+    <startElementReference>diz_task2_Cdiz_task2_C</startElementReference>
+</Flow>

@@ -1,0 +1,8 @@
+.taskTable { 
+	width:100% 
+}
+
+
+.taskTable td { 
+	width:0%; padding:3px 3px 2px 3px; 
+}

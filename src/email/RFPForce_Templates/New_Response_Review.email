@@ -1,0 +1,8 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<div style="text-align: left;">Dear {!Response__c.OwnerFullName}:<br><br>You have been assigned as the owner for a new RFP Response.<br><br>Please
+review the response below and edit if necessary for accuracy.&nbsp; This reponse will be used in RFPs, (test)
+RFIs, SOWs, and other formal documents that describe the <span style="font-style: italic; text-decoration: underline;">current</span> capabilities of&nbsp;{!Organization.Name}.<br><br>Once you have reviewed this response, please set the status to Reviewed to indicate that it may be used in documents.<br><br>You can go directly to the solution here: {!Response__c.Link}<br><br style="font-weight: bold;"><span style="font-weight: bold;">{!Response__c.Name}</span><br><span style="font-weight: bold;"></span><br><span style="font-weight: bold;"></span>{!Response__c.Response_Text__c}<br></div>]]></td>
+</tr>
+</table>

@@ -1,0 +1,1 @@
+trigger Trigger1_diz661_C on APTTaskTemplate__c (before delete)  { }

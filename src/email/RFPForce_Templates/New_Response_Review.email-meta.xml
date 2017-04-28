@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Response sent to Owner for review.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>RFPForce_Letterhead</letterhead>
+    <name>New Response Review</name>
+    <style>freeForm</style>
+    <subject>New RFP Response: {!RFP__c.Name}</subject>
+    <textOnly>Dear {!Response__c.OwnerFullName}:
+
+You have been assigned as the owner for a new RFP Response.
+
+Please
+review the response below and edit if necessary for accuracy.  This reponse will be used in RFPs,
+RFIs, SOWs, and other formal documents that describe the current capabilities of {!Organization.Name}.
+
+Once you have reviewed this response, please set the status to Reviewed to indicate that it may be used in documents.
+
+You can go directly to the solution here: {!Response__c.Link}
+{!Response__c.Name}
+
+{!Response__c.Response_Text__c}</textOnly>
+    <type>html</type>
+</EmailTemplate>

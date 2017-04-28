@@ -1,0 +1,11 @@
+<apex:page controller="CASurveyNetPromoterFiltersController" showheader="false" sidebar="false" standardstylesheets="false">
+    
+    <div class="filter">
+        <c:CASurveyGlobalFiltersComponent />
+    </div>
+      <script type="text/javascript">
+        	ActionPlanTemplateCreationScripts.checkSkipWeekend();
+        	showErrors();
+    	</script>
+    <br />
+</apex:page>

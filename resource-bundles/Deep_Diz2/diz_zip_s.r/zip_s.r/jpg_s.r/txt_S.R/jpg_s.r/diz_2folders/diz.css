@@ -1,0 +1,8 @@
+a { 
+	cursor: pointer; 
+}
+.errorMessage{ 
+	margin: 15px 0px 0px 0px !important; 
+	color:#cc0000; 
+	border-left:2px solid #cc0000 !important;
+}

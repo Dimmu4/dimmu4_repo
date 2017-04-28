@@ -1,0 +1,8 @@
+<aura:documentation>
+	<aura:description>Documentation</aura:description>
+	<aura:example name="ExampleName" ref="exampleComponentName" label="Label">
+		HA-Ha-Ha
+	</aura:example>
+
+	    		<!--test!-->
+</aura:documentation>

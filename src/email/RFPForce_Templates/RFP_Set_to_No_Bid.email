@@ -1,0 +1,6 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[Dear&nbsp;{!RFP__c.OwnerFullName},<div><br></div><div>Test The deadline for submission of the RFx document you have entered in RFPForce has passed, and the RFx document status was set to No Bid.</div><div><br></div><div>If this is incorrect, please update the RFx document using this link:</div><div>{!RFP__c.Link}</div><div><div><br></div><div><b><u>{!RFP__c.Name}</u></b></div><div><b><u><br></u></b></div><div>Due: <i>{!RFP__c.Due_Date__c}</i></div><div>Opportunity:&nbsp;<i>{!RFP__c.Opportunity__c}</i></div><div><i><br></i></div></div>]]></td>
+</tr>
+</table>

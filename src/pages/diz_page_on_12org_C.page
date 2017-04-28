@@ -1,0 +1,12 @@
+<apex:page >
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Congratulations</h1>
+  Load up on guns
+  Bring your friends
+  It's fun to lose and to pretend
+  <!-- End Default Content REMOVE THIS -->
+    
+    <div class="filter1">
+        <c:Component1_diz_proj_nicks />
+    </div>
+</apex:page>

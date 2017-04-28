@@ -1,0 +1,8 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<table border="0" cellpadding="5" cellspacing="5" height="400" width="550"><tbody><tr height="400" valign="top"><td style="color: rgb(0, 0, 0); font-size: 12pt; background-color: rgb(255, 255, 255); font-family: arial;" teditid="c1r1" aeditid="c1r1" locked="0">Dear {!Response__c.OwnerFullName},<br><br>You are identified as the owner of an RFP response which is due to be reviewed.<br><br>Please
+check the response below and make sure it reflects the current capabilities of {!Organization.Name}.&nbsp; This response is used in RFIs, RFPs, SOWs
+and other documents which formally describe&nbsp;{!Organization.Name}'s capabilities.<br><br>Once you have reviewed the response, set its status to Reviewed so that the response may be used in documents.<br><br>You can go directly to the response by clicking below<br><br>{!Response__c.Link}<br><br><span style="font-weight: bold; text-decoration: underline;">{!Response__c.Name}<br><br></span>{!Response__c.Response_Text__c}<br><br></td></tr></tbody></table>]]></td>
+</tr>
+</table>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Response sent to Owner when Response is due for Periodic Review.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>RFPForce_Letterhead</letterhead>
+    <name>Response Periodic Review</name>
+    <style>freeForm</style>
+    <subject>Response Periodic Review: {!Response__c.Name}</subject>
+    <textOnly>Dear {!Response__c.OwnerFullName},
+
+You are identified as the owner of an RFP response which is due to be reviewed.
+
+Please
+check the response below and make sure it reflects the current capabilities of {!Organization.Name}.  This response is used in RFIs, RFPs, SOWs
+and other documents which formally describe {!Organization.Name}&apos;s capabilities.
+
+Once you have reviewed the response, set its status to Reviewed so that the response may be used in documents.
+
+You can go directly to the response by clicking below
+
+{!Response__c.Link}
+
+{!Response__c.Name}
+
+{!Response__c.Response_Text__c}</textOnly>
+    <type>html</type>
+</EmailTemplate>

@@ -1,0 +1,8 @@
+<apex:component >
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Congratulations</h1>
+  Why so serious? 
+
+     Why?
+  <!-- End Default Content REMOVE THIS -->
+</apex:component>
