@@ -122,6 +122,7 @@
         <members>AppexchangeServiceSupportDashboards/AppExchangeSalesforceServiceSupportExecutiveOverview</members>
         <members>AppexchangeServiceSupportDashboards/AppExchangeSalesforceServiceSupportKPIs</members>
         <members>AppexchangeServiceSupportDashboards/AppExchangeSalesforceServiceSupportRepAgentPerformance</members>
+        <members>Chatter_Unfollow_Rules</members>
         <members>Chatter_Unfollow_Rules/Chatter_Unfollow_Summary</members>
         <members>CompanyDashboards/AdoptionDashboard</members>
         <members>CompanyDashboards/CompanyPerformanceDashboard</members>
@@ -238,6 +239,49 @@
         <members>test__c-test Layout</members>
         <members>ttt__c-ttt Layout</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>Analytics_Cloud_Explorer</members>
+        <members>Analytics_Cloud_Integration_User</members>
+        <members>Analytics_Cloud_Wave_Analytics_Platform</members>
+        <members>Battle_Station_Construction_Developer</members>
+        <members>Chatter_External</members>
+        <members>Chatter_Free</members>
+        <members>Chatter_Only</members>
+        <members>Company_Communities</members>
+        <members>Company_Community_for_Force_com</members>
+        <members>Customer_Communitiy</members>
+        <members>Customer_Community_Login</members>
+        <members>High_Volume_Customer_Portal</members>
+        <members>Identity_Connect</members>
+        <members>Nightwish_PS</members>
+        <members>Orders_Platform</members>
+        <members>Papa_Roach_PermissionSet</members>
+        <members>Partner_Community</members>
+        <members>Partner_Community_Login</members>
+        <members>SOS_User</members>
+        <members>Sales_Console_User</members>
+        <members>Salesforce</members>
+        <members>Salesforce_Platform</members>
+        <members>Slipknot_PermissionSet</members>
+        <members>Suggestion_Box_Developer</members>
+        <members>Why_so_serious</members>
+        <members>Work_com_Only</members>
+        <members>Work_com_Rewards</members>
+        <members>diz_permissionSet1_C</members>
+        <members>diz_permissionSet2_C</members>
+        <members>diz_permissionSet3_C</members>
+        <members>diz_permissionSet4_C</members>
+        <members>diz_permissionSet5_C</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>ApexDevNet</members>
+        <name>RemoteSiteSetting</name>
     </types>
     <types>
         <members>*</members>

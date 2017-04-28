@@ -1,0 +1,7 @@
+SELECT 
+	Id, 
+	MethodName, 
+	(SELECT 
+		Id 
+	FROM ApexTestResults) 
+FROM ApexTestResult
