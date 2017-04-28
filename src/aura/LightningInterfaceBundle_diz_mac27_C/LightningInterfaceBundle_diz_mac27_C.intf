@@ -1,0 +1,3 @@
+<aura:interface description="Interface template">
+	<aura:attribute name="example" type="String" default="" description="Test attribute."/>
+</aura:interface>
